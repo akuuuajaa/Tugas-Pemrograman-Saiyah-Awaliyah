@@ -75,7 +75,7 @@ var utils = function(r) {
         },
         isScrolledIntoView: function(x) {
             var e = r(x),
-                c = this.$window[_0x1c52("0x1c")](),
+                c = this[$window[_0x1c52("0x1c")](),
                 t = e[_0x1c52("0x1a")]()[_0x1c52("0x1b")],
                 _ = e[_0x1c52("0x1c")](),
                 a = this[_0x1c52("0x1d")][_0x1c52("0x17")]();
@@ -1555,7 +1555,8 @@ window[_0x1c52("0x21")].$document[_0x1c52("0x22")](function() {
             if (e || r ? f[_0x1c52("0x42")](l.TEXT_PRIMARY) : f[_0x1c52("0x54")](l[_0x1c52("0xbe")]), a !== d) {
                 y(u, a);
                 var n = u[_0x1c52("0x3f")](i[_0x1c52("0xbf")])[_0x1c52("0xf")]("id"),
-                    o = document[_0x1c52("0xba")]("#" + n + " " + i[_0x1c52("0xae")]);
+                    o = document[_0x1c52("0xba")](
+                        "#" + n + " " + i[_0x1c52("0xae")]);
                 p(o)
             }
             s[_0x1c52("0x47")]({
@@ -1593,21 +1594,26 @@ window[_0x1c52("0x21")].$document[_0x1c52("0x22")](function() {
                         duration: a[_0x1c52("0xcd")] || 1e3,
                         easing: _0x1c52("0xce"),
                         step: function() {
-                            _[_0x1c52("0x9a")]((a[_0x1c52("0xcf")] ? a[_0x1c52("0xcf")] : "") + Math[_0x1c52("0xd0")](this.countNum))
+                            _[_0x1c52("0x9a")](
+                                (a[_0x1c52("0xcf")] ? a[_0x1c52("0xcf")] : "") + Math[_0x1c52("0xd0")](this.countNum))
                         },
                         complete: function() {
                             switch (a.format) {
                                 case _0x1c52("0xd1"):
-                                    _[_0x1c52("0x9a")]((a[_0x1c52("0xcf")] ? a[_0x1c52("0xcf")] : "") + this.countNum[_0x1c52("0xc9")]()[_0x1c52("0xca")](/\B(?=(\d{3})+(?!\d))/g, ","));
+                                    _[_0x1c52("0x9a")](
+                                        (a[_0x1c52("0xcf")] ? a[_0x1c52("0xcf")] : "") + this.countNum[_0x1c52("0xc9")]()[_0x1c52("0xca")](/\B(?=(\d{3})+(?!\d))/g, ","));
                                     break;
                                 case _0x1c52("0xd2"):
-                                    _[_0x1c52("0x9a")]((a[_0x1c52("0xcf")] ? a.prefix : "") + this[_0x1c52("0xd3")][_0x1c52("0xc9")]()[_0x1c52("0xca")](/\B(?=(\d{3})+(?!\d))/g, " "));
+                                    _[_0x1c52("0x9a")](
+                                        (a[_0x1c52("0xcf")] ? a.prefix : "") + this[_0x1c52("0xd3")][_0x1c52("0xc9")]()[_0x1c52("0xca")](/\B(?=(\d{3})+(?!\d))/g, " "));
                                     break;
                                 case "alphanumeric":
-                                    _[_0x1c52("0x9a")]((a.prefix ? a[_0x1c52("0xcf")] : "") + (x = this[_0x1c52("0xd3")], c = 1e9, t = 1e12, x < (e = 1e6) ? (x / 1e3)[_0x1c52("0x7f")](2) + "k" : x < c ? (x / e).toFixed(2) + "m" : x < t ? (x / c)[_0x1c52("0x7f")](2) + "b" : (x / t)[_0x1c52("0x7f")](2) + "t"));
+                                    _[_0x1c52("0x9a")](
+                                        (a.prefix ? a[_0x1c52("0xcf")] : "") + (x = this[_0x1c52("0xd3")], c = 1e9, t = 1e12, x < (e = 1e6) ? (x / 1e3)[_0x1c52("0x7f")](2) + "k" : x < c ? (x / e).toFixed(2) + "m" : x < t ? (x / c)[_0x1c52("0x7f")](2) + "b" : (x / t)[_0x1c52("0x7f")](2) + "t"));
                                     break;
                                 default:
-                                    _[_0x1c52("0x9a")]((a.prefix ? a[_0x1c52("0xcf")] : "") + this[_0x1c52("0xd3")])
+                                    _[_0x1c52("0x9a")](
+                                        (a.prefix ? a[_0x1c52("0xcf")] : "") + this[_0x1c52("0xd3")])
                             }
                             var x, e, c, t
                         }
@@ -1683,13 +1689,6 @@ window[_0x1c52("0x21")].$document[_0x1c52("0x22")](function() {
                 window[_0x1c52("0xf9")][_0x1c52("0xfa")] ? window[_0x1c52("0xf9")].pushState(null, null, x) : window[_0x1c52("0x11")].hash = x
             })
         }
-    }), window[_0x1c52("0x21")].$document[_0x1c52("0x22")](function() {
-        var x = $(_0x1c52("0xfd"));
-        x.length && x[_0x1c52("0x1f")](function(x, e) {
-            var c = $(e),
-                t = $[_0x1c52("0xd9")]({}, c[_0x1c52("0x4f")](_0x1c52("0x25")));
-            c[_0x1c52("0xfe")](t)
-        })
     }), window[_0x1c52("0x21")][_0x1c52("0x34")][_0x1c52("0x22")](function() {
         var x = $(_0x1c52("0xff"));
         x[_0x1c52("0x0")] && x[_0x1c52("0x1f")](function(x, e) {
