@@ -260,7 +260,7 @@ sup {
   top: -.5em; }
 
 a {
-  color: #593bdb;
+  color: #e27bad;
   text-decoration: none;
   background-color: transparent; }
   a:hover {
@@ -305,7 +305,7 @@ table {
 caption {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
-  color: #666666;
+  color: #030303;
   text-align: left;
   caption-side: bottom; }
 
@@ -17151,57 +17151,7 @@ span#counter {
 ===================================
     Product detail
 ===================================*/
-.produtct-detail-tag {
-  display: inline-block; }
-  .produtct-detail-tag a {
-    font-style: 13px;
-    color: #454545; }
 
-.product-detail-content .item-tag {
-  background: #828690;
-  border-radius: 6px;
-  display: inline-block;
-  font-size: 12px;
-  margin-right: 4px;
-  padding: 2px 12px;
-  color: #fff; }
-
-.filtaring-area h4 {
-  color: #1d1d1d;
-  font-size: 16px;
-  font-weight: 400;
-  text-transform: lowercase; }
-
-.plus-minus-input .input-icon {
-  font-size: 13px;
-  color: #454545; }
-
-.plus-minus-input {
-  display: flex;
-  width: 100px; }
-  .plus-minus-input .custom-btn {
-    border-radius: 0;
-    height: 40px;
-    padding: 12px 8px;
-    background: #fff;
-    border: 1px solid #eaeaea; }
-  .plus-minus-input .form-control:hover, .plus-minus-input .form-control:focus, .plus-minus-input .form-control:active {
-    border: 1px solid #eaeaea; }
-
-.share-view {
-  display: inline-block; }
-  .share-view ul li {
-    display: inline-block; }
-  .share-view .share-icon {
-    width: 40px;
-    height: 40px;
-    display: inline-block;
-    border: 1px solid #eaeaea;
-    text-align: center;
-    line-height: 40px;
-    font-style: 16px;
-    color: #eaeaea;
-    margin-right: 8px; }
 
 /*--------tab----------*/
 .veritical-line {
