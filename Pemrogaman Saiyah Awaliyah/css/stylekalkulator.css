@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(to right,rgb(255, 204, 229),rgb(255, 255, 255),rgb(204, 204, 255)); /* Gradasi cerah */
+    height: 100%;
+}
+.button{
+    width: 70px; /* Memperbesar tombol */
+    height: 70px;
+    font-size: 30px; /* Memperbesar ukuran font tombol */
+    margin: 5px; /* Menambah jarak antar tombol */
+    cursor: pointer;
+    background: #f53864; /* Warna latar belakang tombol */
+    border: none;
+    color: white;
+    position: relative; /* Menambahkan posisi relatif */
+    border-radius: 50%; /* Membuat tombol bundar */
+    overflow: hidden; /* Menyembunyikan bagian yang keluar dari tombol */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Menambahkan bayangan */
+    transition: transform 0.2s; /* Efek transisi saat hover */
+}
+.button:hover {
+    transform: scale(1.1); /* Membesar saat hover */
+}
+.button::before,
+.button::after {
+    content: '';
+    position: absolute;
+    background: #2f94a5; /* Warna latar belakang tombol */
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    top: -10px;
+}
+.button::before {
+    left: 10px;
+    transform: rotate(-30deg);
+}
+.button::after {
+    right: 10px;
+    transform: rotate(30deg);
+}
+.textview{
+    width: 290px; /* Memperbesar area teks */
+    height: 50px;
+    font-size: 35px; /* Memperbesar ukuran font area teks */
+    margin: 7px;
+    padding: 10px; /* Menambah padding untuk area teks */
+    border: solid 2px #ff6f91; /* Border berwarna cerah */
+    border-radius: 10px; /* Sudut lebih bulat */
+    color:#607d8b;
+    background-color: rgba(255, 255, 255, 0.8); /* Latar belakang transparan */
+}
+.main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(253, 155, 171, 0.9); /* Latar belakang pink transparan */
+    padding: 20px; /* Menambahkan padding untuk memperbesar area kalkulator */
+    border-radius: 15px; /* Membuat sudut lebih bulat */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* Menambahkan bayangan */
+}
+.button-custom{
+    width: 146px; /* Menyesuaikan lebar tombol custom */
+    border-radius: 35px; /* Mengubah radius untuk tombol yang lebih lebar */
+    background: #ff9a9e; /* Warna latar belakang tombol custom */
+    color: white; /* Warna teks putih */
+}
+.button-custom::before,
+.button-custom::after {
+    width: 30px;
+    height: 30px;
+}
+.button-custom::before {
+    left: 20px;
+}
+.button-custom::after {
+    right: 20px;
+}
+.button-ctm{
+    height: 143px; /* Menyesuaikan tinggi tombol custom */
+    border-radius: 35px; /* Mengubah radius untuk tombol yang lebih tinggi */
+    background: #ff6f91; /* Warna latar belakang tombol */
+}
+.button-ctm::before,
+.button-ctm::after {
+    width: 30px;
+    height: 30px;
+    top: -5px;
+}
+.calculator-title {
+    font-family: 'Comic Sans MS', cursive; /* Mengubah font menjadi lebih lucu */
+    font-size: 28px; /* Ukuran font yang lebih besar */
+    color: #ff6f91; /* Warna teks cerah */
+    text-align: center;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Menambahkan bayangan pada teks */
+}
