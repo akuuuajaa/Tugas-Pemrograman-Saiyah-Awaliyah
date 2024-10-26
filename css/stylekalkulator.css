@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    background: linear-gradient(to right,rgb(255, 204, 229),rgb(255, 255, 255),rgb(204, 204, 255)); /* Gradasi cerah */
+    background: #f7c2ce; /* Mengubah latar belakang menjadi pink muda tanpa gradasi */
     height: 100%;
 }
 .button{
@@ -12,7 +12,7 @@ body{
     font-size: 30px; /* Memperbesar ukuran font tombol */
     margin: 5px; /* Menambah jarak antar tombol */
     cursor: pointer;
-    background: #f53864; /* Warna latar belakang tombol */
+    background: #101c5b; /* Warna latar belakang tombol */
     border: none;
     color: white;
     position: relative; /* Menambahkan posisi relatif */
@@ -58,7 +58,7 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: rgba(253, 155, 171, 0.9); /* Latar belakang pink transparan */
+    background-color: rgba(249, 133, 160, 0.9); /* Latar belakang pink transparan */
     padding: 20px; /* Menambahkan padding untuk memperbesar area kalkulator */
     border-radius: 15px; /* Membuat sudut lebih bulat */
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* Menambahkan bayangan */
@@ -66,7 +66,7 @@ body{
 .button-custom{
     width: 146px; /* Menyesuaikan lebar tombol custom */
     border-radius: 35px; /* Mengubah radius untuk tombol yang lebih lebar */
-    background: #ff9a9e; /* Warna latar belakang tombol custom */
+    background: #ff6f91; /* Warna latar belakang tombol custom */
     color: white; /* Warna teks putih */
 }
 .button-custom::before,
@@ -94,7 +94,7 @@ body{
 .calculator-title {
     font-family: 'Comic Sans MS', cursive; /* Mengubah font menjadi lebih lucu */
     font-size: 28px; /* Ukuran font yang lebih besar */
-    color: #ff6f91; /* Warna teks cerah */
+    color: #a14359; /* Warna teks cerah */
     text-align: center;
     margin-bottom: 10px;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Menambahkan bayangan pada teks */
