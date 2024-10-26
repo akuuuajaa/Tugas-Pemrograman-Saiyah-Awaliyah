@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Focus - Bootstrap Admin Dashboard </title>
+    <title>Awaa</title>
     <!-- Favicon icon -->
     <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon.png">
     <!-- Custom Stylesheet -->
@@ -169,15 +169,25 @@
         <div class="quixnav">
             <div class="quixnav-scroll">
                 <ul class="metismenu" id="menu">
-                    <li class="nav-label first"> </li>
+                    <li class="nav-label first">My Projek</li>
                     <li><a class="has-arrow" href="javascript:void()" aria-expanded="false"><i
-                                class="icon icon-single-04"></i><span class="nav-text">Dashboard</span></a>
+                        class="icon icon-single-copy-06"></i><span class="nav-text">Form Login</span></a>
+                <ul aria-expanded="false">
+                    <li><a href="./page-register.html">Register</a></li>
+                    <li><a href="./page-login.html">Login</a></li>
+                    <li><a class="has-arrow" href="javascript:void()" aria-expanded="false">Error</a>
                         <ul aria-expanded="false">
-                            <li><a href="./index.html">Dashboard 1</a></li>
-                            <li><a href="./index2.html">Dashboard 2</a></li></ul>
+                            <li><a href="./page-error-400.html">Error 400</a></li>
+                            <li><a href="./page-error-403.html">Error 403</a></li>
+                            <li><a href="./page-error-404.html">Error 404</a></li>
+                            <li><a href="./page-error-500.html">Error 500</a></li>
+                            <li><a href="./page-error-503.html">Error 503</a></li>
+                        </ul>
                     </li>
-                    
-                    <li class="nav-label"></li>
+                    <li><a href="./page-lock-screen.html">Lock Screen</a></li>
+                </ul>
+                
+            
                     <li><a class="has-arrow" href="javascript:void()" aria-expanded="false"><i
                                 class="icon icon-app-store"></i><span class="nav-text">Portfolio</span></a>
                         <ul aria-expanded="false">
@@ -192,32 +202,22 @@
                             <li><a href="./app-calender.html">Calender</a></li>
                         </ul>
                     </li>
-                    <li class="nav-label"></li>
+                    <li><a class="has-arrow" href="javascript:void()" aria-expanded="false"><i
+                                class="icon icon-single-04"></i><span class="nav-text">Dashboard</span></a>
+                        <ul aria-expanded="false">
+                            <li><a href="./index.html">Dashboard 1</a></li>
+                            <li><a href="./index2.html">Dashboard 2</a></li>
+                        </ul>
+                    </li>
+        
                     <li><a class="has-arrow" href="javascript:void()" aria-expanded="false"><i
                                 class="icon icon-layout-25"></i><span class="nav-text">Kalkulator</span></a>
                         <ul aria-expanded="false">
                             <li><a href="table-bootstrap-basic.html">Go Kalkulator</a></li>
+                            
                         </ul>
                     </li>
 
-                    <li class="nav-label"></li>
-                    <li><a class="has-arrow" href="javascript:void()" aria-expanded="false"><i
-                                class="icon icon-single-copy-06"></i><span class="nav-text">From login</span></a>
-                        <ul aria-expanded="false">
-                            <li><a href="./page-register.html">Register</a></li>
-                            <li><a href="./page-login.html">Login</a></li>
-                            <li><a class="has-arrow" href="javascript:void()" aria-expanded="false">Error</a>
-                                <ul aria-expanded="false">
-                                    <li><a href="./page-error-400.html">Error 400</a></li>
-                                    <li><a href="./page-error-403.html">Error 403</a></li>
-                                    <li><a href="./page-error-404.html">Error 404</a></li>
-                                    <li><a href="./page-error-500.html">Error 500</a></li>
-                                    <li><a href="./page-error-503.html">Error 503</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="./page-lock-screen.html">Lock Screen</a></li>
-                        </ul>
-                    </li>
                 </ul>
             </div>
         </div>
@@ -238,32 +238,32 @@
                     </form>
                     <table>
                         <tr>
-                            <td><input class="button" type="button" value="C" onclick="clear()"></td>
-                            <td><input class="button" type="button" value="<" onclick="back()"></td>
-                            <td><input class="button" type="button" value="/" onclick="insert('/')"></td>
-                            <td><input class="button" type="button" value="x" onclick="insert('*')"></td>
+                            <td><input class="button" type="button" value="C" onclick="clearCalculator()" class="button-3d"></td>
+                            <td><input class="button" type="button" value="<" onclick="back()" class="button-3d"></td>
+                            <td><input class="button" type="button" value="/" onclick="insert('/')" class="button-3d"></td>
+                            <td><input class="button" type="button" value="x" onclick="insert('*')" class="button-3d"></td>
                         </tr>
                         <tr>
-                            <td><input class="button" type="button" value="7" onclick="insert(7)"></td>
-                            <td><input class="button" type="button" value="8" onclick="insert(8)"></td>
-                            <td><input class="button" type="button" value="9" onclick="insert(9)"></td>
-                            <td><input class="button" type="button" value="-" onclick="insert('-')"></td>
+                            <td><input class="button" type="button" value="7" onclick="insert(7)" class="button-3d"></td>
+                            <td><input class="button" type="button" value="8" onclick="insert(8)" class="button-3d"></td>
+                            <td><input class="button" type="button" value="9" onclick="insert(9)" class="button-3d"></td>
+                            <td><input class="button" type="button" value="-" onclick="insert('-')" class="button-3d"></td>
                         </tr>
                         <tr>
-                            <td><input class="button" type="button" value="4" onclick="insert(4)"></td>
-                            <td><input class="button" type="button" value="5" onclick="insert(5)"></td>
-                            <td><input class="button" type="button" value="6" onclick="insert(6)"></td>
-                            <td><input class="button" type="button" value="+" onclick="insert('+')"></td>
+                            <td><input class="button" type="button" value="4" onclick="insert(4)" class="button-3d"></td>
+                            <td><input class="button" type="button" value="5" onclick="insert(5)" class="button-3d"></td>
+                            <td><input class="button" type="button" value="6" onclick="insert(6)" class="button-3d"></td>
+                            <td><input class="button" type="button" value="+" onclick="insert('+')" class="button-3d"></td>
                         </tr>
                         <tr>
-                            <td><input class="button" type="button" value="1" onclick="insert(1)"></td>
-                            <td><input class="button" type="button" value="2" onclick="insert(2)"></td>
-                            <td><input class="button" type="button" value="3" onclick="insert(3)"></td>
-                            <td rowspan="2"><input class="button button-ctm" style="height:106px" type="button" value="=" onclick="equal()"></td>
+                            <td><input class="button" type="button" value="1" onclick="insert(1)" class="button-3d"></td>
+                            <td><input class="button" type="button" value="2" onclick="insert(2)" class="button-3d"></td>
+                            <td><input class="button" type="button" value="3" onclick="insert(3)" class="button-3d"></td>
+                            <td rowspan="2"><input class="button button-ctm button-3d" style="height:106px" type="button" value="=" onclick="equal()"></td>
                         </tr>
                         <tr>
-                            <td colspan="2"><input class="button button-custom" style="width:106px" type="button" value="0" onclick="insert(0)"></td>
-                            <td><input class="button" type="button" value="." onclick="insert('.')"></td>
+                            <td colspan="2"><input class="button button-custom button-3d" style="width:106px" type="button" value="0" onclick="insert(0)"></td>
+                            <td><input class="button" type="button" value="." onclick="insert('.')" class="button-3d"></td>
                         </tr>
                     </table>
                 </div>
@@ -311,8 +311,11 @@
             document.form.textview.value = document.form.textview.value + num;
         }
 
-        function clear() {
-            document.form.textview.value = "";
+        function clearCalculator() {
+            document.form.textview.value = ""; // Menghapus keseluruhan input
+            // Jika ada elemen lain yang perlu direset, tambahkan di sini
+            // Misalnya, jika Anda memiliki variabel lain yang menyimpan status kalkulator
+            // resetStatus(); // Contoh fungsi untuk mereset status
         }
 
         function back() {
