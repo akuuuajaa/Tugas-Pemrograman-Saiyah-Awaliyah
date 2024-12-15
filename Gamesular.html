@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Awaa</title>
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon.png">
+    <!-- Custom Stylesheet -->
+    <link href="./css/style.css" rel="stylesheet">
+  
+</head>
+
+<body>
+
+    <!--*******************
+        Preloader start
+    ********************-->
+    <div id="preloader">
+        <div class="sk-three-bounce">
+            <div class="sk-child sk-bounce1"></div>
+            <div class="sk-child sk-bounce2"></div>
+            <div class="sk-child sk-bounce3"></div>
+        </div>
+    </div>
+    <!--*******************
+        Preloader end
+    ********************-->
+
+    <!--**********************************
+        Main wrapper start
+    ***********************************-->
+    <div id="main-wrapper">
+
+        <!--**********************************
+            Nav header start
+        ***********************************-->
+        <div class="nav-header">
+            <a href="index.html" class="brand-logo">
+                <img class="logo-abbr" src="./images/logo.png" alt="">
+                <img class="logo-compact" src="./images/logo-text.png" alt="">
+                <img class="brand-title" src="./images/logo-text.png" alt="">
+            </a>
+
+            <div class="nav-control">
+                <div class="hamburger">
+                    <span class="line"></span><span class="line"></span><span class="line"></span>
+                </div>
+            </div>
+        </div>
+        <!--**********************************
+            Nav header end
+        ***********************************-->
+
+        <!--**********************************
+            Header start
+        ***********************************-->
+        <div class="header">
+            <div class="header-content">
+                <nav class="navbar navbar-expand">
+                    <div class="collapse navbar-collapse justify-content-between">
+                        <div class="header-left">
+                            <div class="search_bar dropdown">
+                                <span class="search_icon p-3 c-pointer" data-toggle="dropdown">
+                                    <i class="mdi mdi-magnify"></i>
+                                </span>
+                                <div class="dropdown-menu p-0 m-0">
+                                    <form>
+                                        <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+
+                        <ul class="navbar-nav header-right">
+                            <li class="nav-item dropdown notification_dropdown">
+                                <a class="nav-link" href="#" role="button" data-toggle="dropdown">
+                                    <i class="mdi mdi-bell"></i>
+                                    <div class="pulse-css"></div>
+                                </a>
+                                <div class="dropdown-menu dropdown-menu-right">
+                                    <ul class="list-unstyled">
+                                        <li class="media dropdown-item">
+                                            <span class="success"><i class="ti-user"></i></span>
+                                            <div class="media-body">
+                                                <a href="#">
+                                                    <p><strong>Martin</strong> has added a <strong>customer</strong> Successfully
+                                                    </p>
+                                                </a>
+                                            </div>
+                                            <span class="notify-time">3:20 am</span>
+                                        </li>
+                                        <li class="media dropdown-item">
+                                            <span class="primary"><i class="ti-shopping-cart"></i></span>
+                                            <div class="media-body">
+                                                <a href="#">
+                                                    <p><strong>Jennifer</strong> purchased Light Dashboard 2.0.</p>
+                                                </a>
+                                            </div>
+                                            <span class="notify-time">3:20 am</span>
+                                        </li>
+                                        <li class="media dropdown-item">
+                                            <span class="danger"><i class="ti-bookmark"></i></span>
+                                            <div class="media-body">
+                                                <a href="#">
+                                                    <p><strong>Robin</strong> marked a <strong>ticket</strong> as unsolved.
+                                                    </p>
+                                                </a>
+                                            </div>
+                                            <span class="notify-time">3:20 am</span>
+                                        </li>
+                                        <li class="media dropdown-item">
+                                            <span class="primary"><i class="ti-heart"></i></span>
+                                            <div class="media-body">
+                                                <a href="#">
+                                                    <p><strong>David</strong> purchased Light Dashboard 1.0.</p>
+                                                </a>
+                                            </div>
+                                            <span class="notify-time">3:20 am</span>
+                                        </li>
+                                        <li class="media dropdown-item">
+                                            <span class="success"><i class="ti-image"></i></span>
+                                            <div class="media-body">
+                                                <a href="#">
+                                                    <p><strong> James.</strong> has added a<strong>customer</strong> Successfully
+                                                    </p>
+                                                </a>
+                                            </div>
+                                            <span class="notify-time">3:20 am</span>
+                                        </li>
+                                    </ul>
+                                    <a class="all-notification" href="#">See all notifications <i
+                                            class="ti-arrow-right"></i></a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown header-profile">
+                                <a class="nav-link" href="#" role="button" data-toggle="dropdown">
+                                    <i class="mdi mdi-account"></i>
+                                </a>
+                                <div class="dropdown-menu dropdown-menu-right">
+                                    <a href="./app-profile.html" class="dropdown-item">
+                                        <i class="icon-user"></i>
+                                        <span class="ml-2">MyProfile </span>
+                                    </a>
+                                    <a href="./email-inbox.html" class="dropdown-item">
+                                        <i class="icon-envelope-open"></i>
+                                        <span class="ml-2">Inbox </span>
+                                    </a>
+                                    <a href="./page-login.html" class="dropdown-item">
+                                        <i class="icon-key"></i>
+                                        <span class="ml-2">Logout </span>
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!--**********************************
+            Header end ti-comment-alt
+        ***********************************-->
+
+        <!--**********************************
+            Sidebar start
+        ***********************************-->
+   <div class="quixnav">
+    <div class="quixnav-scroll">
+        <ul class="metismenu" id="menu">
+            <li><a class="has-arrow" href="javascript:void()" aria-expanded="false"><i
+                    class="icon icon-app-store"></i><span class="nav-text">Portfolio</span></a>
+                <ul aria-expanded="false">
+                    <li><a href="./app-profile.html">MyProfile</a></li>
+                    <li><a class="has-arrow" href="javascript:void()" aria-expanded="false">Email</a>
+                        <ul aria-expanded="false">
+                            <li><a href="./email-compose.html">Compose</a></li>
+                            <li><a href="./email-inbox.html">Inbox</a></li>
+                            <li><a href="./email-read.html">Read</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="./app-calender.html">Calender</a></li>
+                </ul>
+            </li>
+            <li class="nav-label first">My Projek</li>
+            <li><a class="has-arrow" href="javascript:void()" aria-expanded="false"><i
+                    class="icon icon-single-copy-06"></i><span class="nav-text">Form Login</span></a>
+                <ul aria-expanded="false">
+                    <li><a href="./page-register.html">Register</a></li>
+                    <li><a href="./page-login.html">Login</a></li>
+                    <li><a class="has-arrow" href="javascript:void()" aria-expanded="false">Error</a>
+                        <ul aria-expanded="false">
+                            <li><a href="./page-error-400.html">Error 400</a></li>
+                            <li><a href="./page-error-403.html">Error 403</a></li>
+                            <li><a href="./page-error-404.html">Error 404</a></li>
+                            <li><a href="./page-error-500.html">Error 500</a></li>
+                            <li><a href="./page-error-503.html">Error 503</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="./page-lock-screen.html">Lock Screen</a></li>
+                </ul>
+            </li>
+            <li><a class="has-arrow" href="javascript:void()" aria-expanded="false"><i
+                    class="icon icon-single-04"></i><span class="nav-text">Dashboard</span></a>
+                <ul aria-expanded="false">
+                    <li><a href="./index.html">Dashboard 1</a></li>
+                    <li><a href="./index2.html">Dashboard 2</a></li>
+                </ul>
+            </li>
+            <li><a class="has-arrow" href="javascript:void()" aria-expanded="false"><i
+                    class="icon icon-layout-25"></i><span class="nav-text">Go Combo</span></a>
+                <ul aria-expanded="false">
+                    <li><a href="table-bootstrap-basic.html">Go Kalkulator</a></li>
+                    <li><a href="Gamesular.html">Go Permainan Ular</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</div>
+  <!--**********************************
+            Sidebar end
+        ***********************************-->
+
+        <!--**********************************
+            Content body start
+        ***********************************-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Game Ular</title>
+        <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background: rgb(244, 132, 183);
+            display: flex;
+            color: white;
+        }
+        .sidebar {
+            width: 200px;
+            background: #333;
+            padding: 20px;
+            box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+        }
+        .sidebar h2 {
+            color: white;
+        }
+        .sidebar div {
+            margin: 10px 0;
+        }
+        .content {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+        canvas {
+            border: 2px solid #fff;
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+            background: #000;
+            margin: 150px; /* Menghapus margin untuk menempatkan di tengah */
+            width:700px;
+            height: 500px; /* Mengubah tinggi menjadi 500px untuk konsistensi */
+            display: block; /* Menambahkan display block untuk memusatkan */
+            margin-left: 400px; /* Memusatkan secara horizontal */
+            margin-right: auto; /* Memusatkan secara horizontal */
+        }
+        .info {
+            position: absolute;
+            top: 170px;
+            right: 500px;
+            font-size: 20px;
+            z-index: 10;
+            background: rgba(0, 0, 0, 0.7);
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+        .controls {
+            position: absolute;
+            top: 165px;
+            right: 10px;
+            font-size: 16px;
+            z-index: 10;
+        }
+        .pause {
+            font-size: 40px;
+            color: red;
+            text-align: center;
+        }
+        </style>
+      </head>
+      <body>
+        <div class="info">
+            <div id="score">Score: 0</div>
+            <div id="level">Level: mudah</div>
+        </div>
+        <div class="controls">
+            <div>Tekan 1: Mudah</div>
+            <div>Tekan 2: Sulit</div>
+            <div>Tekan 3: Sangat Sulit</div>
+            <div>Tekan P: Pause</div>
+        </div>
+        <canvas width="500" height="500" id="game"></canvas>
+        <script>
+            var canvas = document.getElementById('game');
+            var context = canvas.getContext('2d');
+    
+            var grid = 16;
+            var count = 0;
+    
+            var snake = {
+                x: 160,
+                y: 160,
+                dx: grid,
+                dy: 0,
+                cells: [],
+                maxCells: 4
+            };
+            var apple = {
+                x: 320,
+                y: 320
+            };
+    
+            var level = 'mudah';
+            var speedMultiplier = 1;
+            var score = 0;
+            var isPaused = false;
+    
+            function setLevel(newLevel) {
+                level = newLevel;
+                speedMultiplier = (level === 'mudah') ? 1 : (level === 'sulit') ? 1.5 : 2;
+                updateDisplay();
+            }
+    
+            function updateDisplay() {
+                document.getElementById('score').innerText = 'Score: ' + score;
+                document.getElementById('level').innerText = 'Level: ' + level;
+            }
+    
+            function getRandomInt(min, max) {
+                return Math.floor(Math.random() * (max - min)) + min;
+            }
+    
+            function togglePause() {
+                isPaused = !isPaused;
+            }
+    
+            function loop() {
+                requestAnimationFrame(loop);
+    
+                if (isPaused) {
+                    context.fillStyle = 'red';
+                    context.font = '30px Arial';
+                    context.fillText('PAUSED', canvas.width / 2 - 50, canvas.height / 2);
+                    return;
+                }
+    
+                if (++count < 4 / speedMultiplier) {
+                    return;
+                }
+    
+                count = 0;
+                context.clearRect(0, 0, canvas.width, canvas.height);
+    
+                snake.x += snake.dx;
+                snake.y += snake.dy;
+    
+                // Wrap snake position
+                snake.x = (snake.x + canvas.width) % canvas.width;
+                snake.y = (snake.y + canvas.height) % canvas.height;
+    
+                snake.cells.unshift({ x: snake.x, y: snake.y });
+    
+                if (snake.cells.length > snake.maxCells) {
+                    snake.cells.pop();
+                }
+    
+                // Draw apple
+                context.fillStyle = 'pink';
+                context.fillRect(apple.x, apple.y, grid - 1, grid - 1);
+    
+                // Draw snake
+                context.fillStyle = 'pink';
+                snake.cells.forEach(function (cell, index) {
+                    context.fillRect(cell.x, cell.y, grid - 1, grid - 1);
+    
+                    // Check collision with itself
+                    for (var i = index + 1; i < snake.cells.length; i++) {
+                        if (cell.x === snake.cells[i].x && cell.y === snake.cells[i].y) {
+                            resetGame();
+                        }
+                    }
+                });
+    
+                // Check if the head of the snake is close to the apple
+                var distanceX = Math.abs(snake.cells[0].x - apple.x);
+                var distanceY = Math.abs(snake.cells[0].y - apple.y);
+                var maxDistance = grid; // Jarak maksimum untuk dianggap "dekat"
+                if (distanceX < maxDistance && distanceY < maxDistance) {
+                    snake.maxCells++;
+                    score++;
+                    // Generate new apple position
+                    apple.x = getRandomInt(0, 31) * grid;
+                    apple.y = getRandomInt(0, 31) * grid;
+                }
+    
+                updateDisplay();
+            }
+    
+            function resetGame() {
+                snake.x = 160;
+                snake.y = 160;
+                snake.cells = [];
+                snake.maxCells = 4;
+                snake.dx = grid;
+                snake.dy = 0;
+                score = 0;
+                apple.x = getRandomInt(0, 31) * grid;
+                apple.y = getRandomInt(0, 31) * grid;
+                updateDisplay();
+            }
+    
+            document.addEventListener('keydown', function (e) {
+                if (e.which === 37 && snake.dx === 0) {
+     snake.dx = -grid;
+                    snake.dy = 0;
+                } else if (e.which === 38 && snake.dy === 0) {
+                    snake.dy = -grid;
+                    snake.dx = 0;
+                } else if (e.which === 39 && snake.dx === 0) {
+                    snake.dx = grid;
+                    snake.dy = 0;
+                } else if (e.which === 40 && snake.dy === 0) {
+                    snake.dy = grid;
+                    snake.dx = 0;
+                }
+    
+                if (e.which === 49) {
+                    setLevel('mudah');
+                } else if (e.which === 50) {
+                    setLevel('sulit');
+                } else if (e.which === 51) {
+                    setLevel('sangat sulit');
+                }
+    
+                if (e.which === 80) {
+                    togglePause();
+                }
+            });
+    
+            requestAnimationFrame(loop);
+        </script>
+    </body>
+
+  <!--**********************************
+            Content body end
+        ***********************************-->
+
+        <!--**********************************
+            Footer start
+        ***********************************-->
+        <div class="footer">
+          <div class="copyright">
+              <p>Copyright © Designed &amp; Developed by <a href="#" target="_blank">Saiyah Awaliyah</a> 2024</p>
+          </div>
+      </div>
+      <!--**********************************
+          Footer end
+      ***********************************-->
+
+        <!--**********************************
+           Support ticket button start
+        ***********************************-->
+
+        <!--**********************************
+           Support ticket button end
+        ***********************************-->
+
+    </div>
+    <!--**********************************
+        Main wrapper end
+    ***********************************-->
+
+    <!--**********************************
+        Scripts
+    ***********************************-->
+    <!-- Required vendors -->
+    <script src="./vendor/global/global.min.js"></script>
+    <script src="./js/quixnav-init.js"></script>
+    <script src="./js/custom.min.js"></script>
+    <script src="/js/kalkulator.js"></script>
+    <script>
+        function insert(num) {
+            document.form.textview.value = document.form.textview.value + num;
+        }
+
+        function clearCalculator() {
+            document.form.textview.value = ""; // Menghapus keseluruhan input
+            // Jika ada elemen lain yang perlu direset, tambahkan di sini
+            // Misalnya, jika Anda memiliki variabel lain yang menyimpan status kalkulator
+            // resetStatus(); // Contoh fungsi untuk mereset status
+        }
+
+        function back() {
+            var exp = document.form.textview.value;
+            document.form.textview.value = exp.substring(0, exp.length - 1);
+        }
+
+        function equal() {
+            var exp = document.form.textview.value;
+            if (exp) {
+                document.form.textview.value = eval(exp);
+            }
+        }
+    </script>
+</body>
+
+</html>
