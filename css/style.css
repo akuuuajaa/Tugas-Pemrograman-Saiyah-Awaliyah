@@ -19157,18 +19157,29 @@ html[dir="rtl"] [direction="rtl"][data-sidebar-style="compact"]:not([data-layout
     [data-theme-version="dark"] .footer .copyright p {
       color: #fff; }
 /*# sourceMappingURL=style.css.map */
+.project-scroll {
+  overflow-x: auto; /* Menambahkan scroll horizontal */
+  white-space: nowrap; /* Mencegah pembungkusan teks */
+  padding: 10px 0; /* Tambahkan padding vertikal */
+  scroll-behavior: smooth; /* Efek scroll yang halus */
+}
+
 .project-item {
+  display: inline-block; /* Mengatur item agar ditampilkan dalam satu baris */
+  width: 300px; /* Atur lebar item sesuai kebutuhan */
+  height: 400px; /* Atur tinggi item agar sama */
+  margin-right: 20px; /* Jarak antar item */
+  vertical-align: top; /* Menjaga item tetap sejajar di bagian atas */
   background-color: #ffffff; /* Warna latar belakang putih */
   border: 1px solid #dee2e6; /* Border abu-abu */
   border-radius: 10px; /* Sudut melengkung */
   padding: 20px; /* Padding di dalam card */
-  margin-bottom: 20px; /* Jarak antar card */
   transition: transform 0.3s, box-shadow 0.3s; /* Efek transisi saat hover */
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Bayangan halus */
 }
 
 .project-item:hover {
-  transform: translateY(-5px); /* Efek mengangkat saat hover */
+  transform: scale(1.05); /* Efek memperbesar saat hover */
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2); /* Bayangan lebih dalam saat hover */
   background-color: #f8f9fa; /* Warna latar belakang saat hover */
 }
@@ -19190,8 +19201,7 @@ html[dir="rtl"] [direction="rtl"][data-sidebar-style="compact"]:not([data-layout
   line-height: 1.5; /* Jarak antar baris */
 }
 
-/* Perubahan yang diusulkan */
-.project-item {
-  border-radius: 15px; /* Mengubah sudut melengkung menjadi lebih besar */
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15); /* Mengubah bayangan untuk efek lebih dalam */
+.project-item img {
+  max-width: 100%; /* Memastikan gambar tidak melampaui lebar kotak */
+  height: auto; /* Mempertahankan rasio aspek gambar */
 }
